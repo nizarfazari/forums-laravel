@@ -1,0 +1,37 @@
+metode pertama
+
+$post->title = 'Judul ke 1'
+$post->excerpt = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quo maxime perspiciatis mollitia voluptas'
+$post->body = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quo maxime perspiciatis mollitia voluptas laboriosam, ad soluta porro deserunt amet laborum voluptatum necessitatibus nam, fugit sunt! Praesentium corporis adipisci deserunt tempore libero officia tenetur perferendis soluta eaque illo maxime ex voluptates eos eius corrupti, nesciunt fugit unde ab voluptatem pariatur alias? Minima quas nobis aspernatur dicta neque dolorum hic, maxime quia ullam sunt quos facere doloribus, natus eaque ut ducimus, incidunt veniam. Quisquam amet dicta adipisci neque ipsam, veniam necessitatibus cumque placeat quo ea velit illum rerum sit rem beatae unde sed, ut nihil. Mollitia accusantium dolor repellat ipsum!'
+$post->save()
+
+
+
+$post->title = 'Judul ke 2'
+$post->slug = 'judul yang ke 1'
+$post->excerpt = '<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+$post->body = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quo maxime perspiciatis mollitia voluptas laboriosam, ad soluta porro deserunt amet laborum voluptatum necessitatibus nam, fugit sunt! Praesentium corporis adipisci deserunt tempore libero officia tenetur perferendis soluta eaque illo maxime ex voluptates eos eius corrupti, nesciunt fugit unde ab voluptatem pariatur alias? Minima quas nobis aspernatur dicta neque dolorum hic, maxime quia ullam sunt quos facere doloribus, natus eaque ut ducimus, incidunt veniam. Quisquam amet dicta adipisci neque ipsam, veniam necessitatibus cumque placeat quo ea velit illum rerum sit rem beatae unde sed, ut nihil. Mollitia accusantium dolor repellat ipsum!</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus saepe deleniti assumenda placeat. Fugit voluptatem voluptas alias sequi optio odio inventore quibusdam incidunt quod corporis fuga nulla officia doloremque dolore itaque quaerat velit tenetur accusantium, necessitatibus nostrum. Sapiente aspernatur earum, illum aliquid est possimus nesciunt quia in ea error obcaecati.</p>'
+$post->save()
+
+metode ke 2
+Post::create([
+    "title" => "Judul yang ke 2",
+    "slug" => "Judul yang ke 2",
+    "category_id" => 1,
+    "excerpt" => "ini adalah bagian kutipan",
+    "body" => "Lorem ipsum dolor sit amet consectetur adipisicing elit.'
+    $post->body = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quo maxime perspiciatis mollitia voluptas laboriosam, ad soluta porro deserunt amet laborum voluptatum necessitatibus nam, fugit sunt! Praesentium corporis adipisci deserunt tempore libero officia tenetur perferendis soluta eaque illo maxime ex voluptates eos eius corrupti, nesciunt fugit unde ab voluptatem pariatur alias? Minima quas nobis aspernatur dicta neque dolorum hic, maxime quia ullam sunt quos facere doloribus, natus eaque ut ducimus, incidunt veniam. Quisquam amet dicta adipisci neque ipsam, veniam necessitatibus cumque placeat quo ea velit illum rerum sit rem beatae unde sed, ut nihil. Mollitia accusantium dolor repellat ipsum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas qui quo maxime perspiciatis mollitia"
+])
+
+Category::create([
+    "name" => "Programming",
+    "slug" => "programming"
+])
+Category::create([
+    "name" => "Web Design",
+    "slug" => "web-design"
+])
+Category::create([
+    "name" => "Personal",
+    "slug" => "personal"
+])
