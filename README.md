@@ -1,3 +1,14 @@
+# What is this Application
+
+Ini adalah aplikasi web menggunakan framework laravel yang mana di tujukan untuk belajar penggunaan laravel
+1. Upload gambar
+2. Validasi
+3. CRUD
+4. Flashdata
+5. Midleware
+6. Authorization
+7. N+1 Problem
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
